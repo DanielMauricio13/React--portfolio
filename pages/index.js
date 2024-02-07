@@ -17,15 +17,17 @@ const Home = () => {
             animate="show"
            exit="hidden"
           className="h1">
-            Transforming Ideas <br /> Into{' '}
-            <span className="text-accent">Digital Reality</span>
+            Morphing Ideas <br /> Into{' '}
+            <span className="text-accent">Digital Existence</span>
           </motion.h1>
           <motion.p className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
            variants={fadeIn('down', 0.3)}
            initial="hidden"
             animate="show"
            exit="hidden">
-            This is a subtitle space
+             Join me on this exploration of projects that showcase my commitment to pushing 
+             the boundaries of what is possible in the world of computer engineering. 
+            
           </motion.p>
           <div className="flex justify-center xl:hidden relative">
             <ProjectsBtn />
@@ -44,7 +46,7 @@ const Home = () => {
         <div className="bg-none xl:bg-explosion xl:bg-cover xl:bg-right xl:bg-no-repeat w-full
          h-full absolute mix-blend-color-dodge translate-z-0">
         </div>
-        <ParticlesContainer />
+         <ParticlesContainer /> 
         <motion.div variants={fadeIn('up', 0.5)}
            initial="hidden"
             animate="show"
