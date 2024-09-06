@@ -5,18 +5,19 @@ import {RiInstagramLine, RiFacebookBoxLine, RiDribbbleLine, RiBehanceLine, RiPin
 const Socials = () => {
   return (
     <div className='flex items-center gap-x-5 text-lg'>
+      <Link href={'https://github.com/DanielMauricio13'} className='hover:text-accent transition-all duration-300'>
+        <RiGithubLine/>
+      </Link>
+      <Link href={'https://linkedin.com/in/daniel-mauricio-vergara-pinilla-2378ab205'} className='hover:text-accent transition-all duration-300'>
+        <RiLinkedinBoxLine/>
+      </Link>
       <Link href={''} className='hover:text-accent transition-all duration-300'>
         <RiInstagramLine/>
       </Link>
       <Link href={''} className='hover:text-accent transition-all duration-300'>
         <RiFacebookBoxLine/>
       </Link>
-      <Link href={''} className='hover:text-accent transition-all duration-300'>
-        <RiGithubLine/>
-      </Link>
-      <Link href={''} className='hover:text-accent transition-all duration-300'>
-        <RiLinkedinBoxLine/>
-      </Link>
+      
     </div>
   )
 };
